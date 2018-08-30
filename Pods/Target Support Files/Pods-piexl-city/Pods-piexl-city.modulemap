@@ -1,0 +1,6 @@
+framework module Pods_piexl_city {
+  umbrella header "Pods-piexl-city-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142FE4E7212F8D41002705E6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FE4E6212F8D41002705E6 /* PhotoCell.swift */; };
+		142FE4E9212FB170002705E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FE4E8212FB170002705E6 /* Constants.swift */; };
+		142FE4EB2130B8FB002705E6 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FE4EA2130B8FB002705E6 /* PopVC.swift */; };
+		142FE4F02130E9B4002705E6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FE4EF2130E9B4002705E6 /* Photo.swift */; };
+		143391AF212D0A2C00E3EFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143391AE212D0A2C00E3EFF6 /* AppDelegate.swift */; };
+		143391B1212D0A2C00E3EFF6 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143391B0212D0A2C00E3EFF6 /* MapVC.swift */; };
+		143391B4212D0A2C00E3EFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143391B2212D0A2C00E3EFF6 /* Main.storyboard */; };
+		143391B6212D0A2E00E3EFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143391B5212D0A2E00E3EFF6 /* Assets.xcassets */; };
+		143391B9212D0A2E00E3EFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143391B7212D0A2E00E3EFF6 /* LaunchScreen.storyboard */; };
+		14702CBA212E370300969625 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14702CB9212E370300969625 /* DroppablePin.swift */; };
+		777D54A9870E3571A511C68F /* Pods_piexl_city.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C8FE6354E6466EB4AC014 /* Pods_piexl_city.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		142FE4E6212F8D41002705E6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		142FE4E8212FB170002705E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		142FE4EA2130B8FB002705E6 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		142FE4EF2130E9B4002705E6 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		143391AB212D0A2C00E3EFF6 /* piexl-city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "piexl-city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143391AE212D0A2C00E3EFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		143391B0212D0A2C00E3EFF6 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		143391B3212D0A2C00E3EFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143391B5212D0A2E00E3EFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		143391B8212D0A2E00E3EFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		143391BA212D0A2E00E3EFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14702CB9212E370300969625 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		75D3AED6D42D68FC1033139C /* Pods-piexl-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piexl-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-piexl-city/Pods-piexl-city.release.xcconfig"; sourceTree = "<group>"; };
+		A4DEAF7A2F880406A27D4CE4 /* Pods-piexl-city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piexl-city.debug.xcconfig"; path = "Pods/Target Support Files/Pods-piexl-city/Pods-piexl-city.debug.xcconfig"; sourceTree = "<group>"; };
+		C99C8FE6354E6466EB4AC014 /* Pods_piexl_city.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_piexl_city.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143391A8212D0A2C00E3EFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777D54A9870E3571A511C68F /* Pods_piexl_city.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9C700B293BFCB9122CC2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99C8FE6354E6466EB4AC014 /* Pods_piexl_city.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		142FE4EC2130D725002705E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				142FE4EF2130E9B4002705E6 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		143391A2212D0A2C00E3EFF6 = {
+			isa = PBXGroup;
+			children = (
+				143391AD212D0A2C00E3EFF6 /* piexl-city */,
+				143391AC212D0A2C00E3EFF6 /* Products */,
+				D745A2DDC9CBFA5E267D825E /* Pods */,
+				0C9C700B293BFCB9122CC2D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		143391AC212D0A2C00E3EFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143391AB212D0A2C00E3EFF6 /* piexl-city.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143391AD212D0A2C00E3EFF6 /* piexl-city */ = {
+			isa = PBXGroup;
+			children = (
+				142FE4EC2130D725002705E6 /* Model */,
+				143391C3212D0A9300E3EFF6 /* Utilites */,
+				143391C2212D0A8300E3EFF6 /* Extensions */,
+				143391C1212D0A7C00E3EFF6 /* View */,
+				143391C0212D0A7100E3EFF6 /* Controller */,
+				143391AE212D0A2C00E3EFF6 /* AppDelegate.swift */,
+				143391B2212D0A2C00E3EFF6 /* Main.storyboard */,
+				143391B5212D0A2E00E3EFF6 /* Assets.xcassets */,
+				143391B7212D0A2E00E3EFF6 /* LaunchScreen.storyboard */,
+				143391BA212D0A2E00E3EFF6 /* Info.plist */,
+			);
+			path = "piexl-city";
+			sourceTree = "<group>";
+		};
+		143391C0212D0A7100E3EFF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				143391B0212D0A2C00E3EFF6 /* MapVC.swift */,
+				142FE4EA2130B8FB002705E6 /* PopVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		143391C1212D0A7C00E3EFF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14702CB9212E370300969625 /* DroppablePin.swift */,
+				142FE4E6212F8D41002705E6 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		143391C2212D0A8300E3EFF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		143391C3212D0A9300E3EFF6 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				142FE4E8212FB170002705E6 /* Constants.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		D745A2DDC9CBFA5E267D825E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEAF7A2F880406A27D4CE4 /* Pods-piexl-city.debug.xcconfig */,
+				75D3AED6D42D68FC1033139C /* Pods-piexl-city.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		143391AA212D0A2C00E3EFF6 /* piexl-city */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143391BD212D0A2E00E3EFF6 /* Build configuration list for PBXNativeTarget "piexl-city" */;
+			buildPhases = (
+				DD9A333109E5B80DF47274EE /* [CP] Check Pods Manifest.lock */,
+				143391A7212D0A2C00E3EFF6 /* Sources */,
+				143391A8212D0A2C00E3EFF6 /* Frameworks */,
+				143391A9212D0A2C00E3EFF6 /* Resources */,
+				F6C74CDD4AE676F1D9320575 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "piexl-city";
+			productName = "piexl-city";
+			productReference = 143391AB212D0A2C00E3EFF6 /* piexl-city.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143391A3212D0A2C00E3EFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Faisal Babkoor";
+				TargetAttributes = {
+					143391AA212D0A2C00E3EFF6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 143391A6212D0A2C00E3EFF6 /* Build configuration list for PBXProject "piexl-city" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143391A2212D0A2C00E3EFF6;
+			productRefGroup = 143391AC212D0A2C00E3EFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143391AA212D0A2C00E3EFF6 /* piexl-city */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143391A9212D0A2C00E3EFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143391B9212D0A2E00E3EFF6 /* LaunchScreen.storyboard in Resources */,
+				143391B6212D0A2E00E3EFF6 /* Assets.xcassets in Resources */,
+				143391B4212D0A2C00E3EFF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD9A333109E5B80DF47274EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-piexl-city-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C74CDD4AE676F1D9320575 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-piexl-city/Pods-piexl-city-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-piexl-city/Pods-piexl-city-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143391A7212D0A2C00E3EFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142FE4F02130E9B4002705E6 /* Photo.swift in Sources */,
+				143391B1212D0A2C00E3EFF6 /* MapVC.swift in Sources */,
+				142FE4E7212F8D41002705E6 /* PhotoCell.swift in Sources */,
+				142FE4EB2130B8FB002705E6 /* PopVC.swift in Sources */,
+				14702CBA212E370300969625 /* DroppablePin.swift in Sources */,
+				143391AF212D0A2C00E3EFF6 /* AppDelegate.swift in Sources */,
+				142FE4E9212FB170002705E6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		143391B2212D0A2C00E3EFF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143391B3212D0A2C00E3EFF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		143391B7212D0A2E00E3EFF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143391B8212D0A2E00E3EFF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143391BB212D0A2E00E3EFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		143391BC212D0A2E00E3EFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143391BE212D0A2E00E3EFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DEAF7A2F880406A27D4CE4 /* Pods-piexl-city.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99D7PQF846;
+				INFOPLIST_FILE = "piexl-city/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babkoor.faisal.piexl-city";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		143391BF212D0A2E00E3EFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D3AED6D42D68FC1033139C /* Pods-piexl-city.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99D7PQF846;
+				INFOPLIST_FILE = "piexl-city/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babkoor.faisal.piexl-city";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143391A6212D0A2C00E3EFF6 /* Build configuration list for PBXProject "piexl-city" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143391BB212D0A2E00E3EFF6 /* Debug */,
+				143391BC212D0A2E00E3EFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143391BD212D0A2E00E3EFF6 /* Build configuration list for PBXNativeTarget "piexl-city" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143391BE212D0A2E00E3EFF6 /* Debug */,
+				143391BF212D0A2E00E3EFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143391A3212D0A2C00E3EFF6 /* Project object */;
+}
